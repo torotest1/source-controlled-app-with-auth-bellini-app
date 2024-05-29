@@ -1,0 +1,33 @@
+{
+  "name": "source-controlled-app-with-auth",
+  "type": "app",
+  "defaultPage": "home",
+  "config": {
+    "config": {
+      "parameters": [],
+      "script": ""
+    },
+    "modules": [],
+    "properties": {
+      "version": "1.0.0-SNAPSHOT"
+    },
+    "environments": [],
+    "themes": [],
+    "auth": {
+      "enabled": true,
+      "mockedUserAccounts": [
+        {
+          "fullname": "John Doe",
+          "email": "john.doe@lonti.com",
+          "password": "$2b$10$j8PU8pZwuUbYazUOfH0On..AFGQ9Kug6Twcoz8CGCWvdOl1Wbdm3C",
+          "enabled": true,
+          "id": "abj2ctaLCNGN35pOSLcdW",
+          "memberId": 1,
+          "dateRegistered": 1716960521589000
+        }
+      ]
+    }
+  },
+  "externalScripts": [],
+  "externalStylesheets": []
+}
